@@ -13,11 +13,7 @@ class Header extends Component {
                 <div className="header__full-name">
                     <h4>Work Order Request and Completion System</h4>
                 </div>
-                <div className="header__login-btn">
-                    <button type='button'>
-                        Log In
-                    </button>
-                </div>
+
             </div>  
         );
     }

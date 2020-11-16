@@ -18,19 +18,19 @@ class App extends Component {
           <nav className="header-navbar">
               <Link to="/" className="header-navbar__header"><Header/></Link>
               <div className="header-navbar__navbar-links">
-                <div className="header-navbar__navbar-link">
+                <div className="header-navbar__navbar-link1">
                   <Link to="/" className="nav-link">Current</Link>
                 </div>
-                <div className="header-navbar__navbar-link">
+                <div className="header-navbar__navbar-link2">
                   <Link to="/create" className="nav-link">Create </Link>
                 </div>
-                <div className="header-navbar__navbar-link">
+                <div className="header-navbar__navbar-link3">
                   <Link to="/archived" className="nav-link">Archived </Link>
                 </div>                  
-                <div className="header-navbar__navbar-link">
+                <div className="header-navbar__navbar-link4">
                   <Link to="/completed" className="nav-link">Completed </Link>
                 </div>
-                <div className="header-navbar__navbar-link">
+                <div className="header-navbar__navbar-link5">
                   <Link to="/assign" className="nav-link">Assign </Link>
                 </div>                              
               </div>
