@@ -10,6 +10,14 @@ import Assign from "./components/pages/assign";
 import Edit from "./components/pages/edit";
 import Header from "./components/headerNavbar/header";
 
+// TODO 
+// Use axios to call on work orders for the proper component
+// Use preexisting template from DB to call each work order
+// Add status key to db files for axios calls 
+// Make sure logic follows CRUD requirements 
+// Style each component
+// Make mobile friendly with media queries 
+
 class App extends Component {
   render() {
     return (
